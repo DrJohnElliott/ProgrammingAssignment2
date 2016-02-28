@@ -1,5 +1,7 @@
 ## Create functions to demonstrate the ability to use cache data stored in memory
 ## This cache example is to demonstrate part of the scoping rules in R
+## This code assumes a square matrix and that the inverse can be calculated from it
+## Example of a matrix that can be used, my_matrix <- matrix(rnorm(9),3,3)
 
 ## makeCacheMatrix - creates a special matrix object that can cache its inverse
 
